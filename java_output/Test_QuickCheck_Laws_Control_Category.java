@@ -1,0 +1,9 @@
+public class Test_QuickCheck_Laws_Control_Category {
+    public static final Object FFI_STUB = new java.util.function.Function<Object, Object>() {
+        public Object apply(Object arg) { return this; }
+    };
+
+
+public static final Object checkCategoryGen = (java.util.function.Function<Object, Object>) (dictCategory_0) -> { Object Semigroupoid0_1 = ((java.util.function.Function<Object, Object>) (((java.util.LinkedHashMap<String, Object>) dictCategory_0).get("Semigroupoid0"))).apply(null /* TODO: PrimUndefined */); Object identity_2 = ((java.util.LinkedHashMap<String, Object>) dictCategory_0).get("identity"); return (java.util.function.Function<Object, Object>) (dictArbitrary_3) -> (java.util.function.Function<Object, Object>) (dictEq_4) -> (java.util.function.Function<Object, Object>) (gen_5) -> { Object __local_var_6 = ((java.util.function.Function<Object, Object>) ((java.util.function.Function<Object, Object>) (arg) -> (java.util.function.Supplier<Object>) () -> { System.out.println(arg); return null; })).apply("Checking 'Identity' law for Category"); return __local_var_6; }; };
+public static final Object checkCategory = (java.util.function.Function<Object, Object>) (dictCategory_0) -> (java.util.function.Function<Object, Object>) (dictArbitrary_1) -> (java.util.function.Function<Object, Object>) (dictEq_2) -> (java.util.function.Function<Object, Object>) (v_3) -> { Object Semigroupoid0_4 = ((java.util.function.Function<Object, Object>) (((java.util.LinkedHashMap<String, Object>) dictCategory_0).get("Semigroupoid0"))).apply(null /* TODO: PrimUndefined */); Object identity_5 = ((java.util.LinkedHashMap<String, Object>) dictCategory_0).get("identity"); Object __local_var_6 = ((java.util.function.Function<Object, Object>) ((java.util.function.Function<Object, Object>) (arg) -> (java.util.function.Supplier<Object>) () -> { System.out.println(arg); return null; })).apply("Checking 'Identity' law for Category"); return __local_var_6; };
+}

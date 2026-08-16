@@ -1,0 +1,9 @@
+public class Test_QuickCheck_Laws_Data_Bounded {
+    public static final Object FFI_STUB = new java.util.function.Function<Object, Object>() {
+        public Object apply(Object arg) { return this; }
+    };
+
+
+public static final Object checkBoundedGen = (java.util.function.Function<Object, Object>) (dictBounded_0) -> { Object Ord0_1 = ((java.util.function.Function<Object, Object>) (((java.util.LinkedHashMap<String, Object>) dictBounded_0).get("Ord0"))).apply(null /* TODO: PrimUndefined */); Object top_2 = ((java.util.LinkedHashMap<String, Object>) dictBounded_0).get("top"); return (java.util.function.Function<Object, Object>) (dictOrd_3) -> (java.util.function.Function<Object, Object>) (gen_4) -> { Object __local_var_5 = ((java.util.function.Function<Object, Object>) ((java.util.function.Function<Object, Object>) (arg) -> (java.util.function.Supplier<Object>) () -> { System.out.println(arg); return null; })).apply("Checking 'Ordering' law for Bounded"); return __local_var_5; }; };
+public static final Object checkBounded = (java.util.function.Function<Object, Object>) (dictArbitrary_0) -> (java.util.function.Function<Object, Object>) (dictBounded_1) -> (java.util.function.Function<Object, Object>) (dictOrd_2) -> (java.util.function.Function<Object, Object>) (v_3) -> { Object Ord0_4 = ((java.util.function.Function<Object, Object>) (((java.util.LinkedHashMap<String, Object>) dictBounded_1).get("Ord0"))).apply(null /* TODO: PrimUndefined */); Object top_5 = ((java.util.LinkedHashMap<String, Object>) dictBounded_1).get("top"); Object __local_var_6 = ((java.util.function.Function<Object, Object>) ((java.util.function.Function<Object, Object>) (arg) -> (java.util.function.Supplier<Object>) () -> { System.out.println(arg); return null; })).apply("Checking 'Ordering' law for Bounded"); return __local_var_6; };
+}

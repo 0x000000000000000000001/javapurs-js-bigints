@@ -1,0 +1,9 @@
+public class Test_QuickCheck_Laws_Control_Semigroupoid {
+    public static final Object FFI_STUB = new java.util.function.Function<Object, Object>() {
+        public Object apply(Object arg) { return this; }
+    };
+
+
+public static final Object checkSemigroupoidGen = (java.util.function.Function<Object, Object>) (dictSemigroupoid_0) -> (java.util.function.Function<Object, Object>) (dictEq_1) -> (java.util.function.Function<Object, Object>) (genbc_2) -> (java.util.function.Function<Object, Object>) (gencd_3) -> (java.util.function.Function<Object, Object>) (gende_4) -> { Object __local_var_5 = ((java.util.function.Function<Object, Object>) ((java.util.function.Function<Object, Object>) (arg) -> (java.util.function.Supplier<Object>) () -> { System.out.println(arg); return null; })).apply("Checking 'Associativity' law for Semigroupoid"); return __local_var_5; };
+public static final Object checkSemigroupoid = (java.util.function.Function<Object, Object>) (dictSemigroupoid_0) -> (java.util.function.Function<Object, Object>) (dictArbitrary_1) -> { Object arbitrary_2 = ((java.util.LinkedHashMap<String, Object>) dictArbitrary_1).get("arbitrary"); return (java.util.function.Function<Object, Object>) (dictArbitrary1_3) -> { Object arbitrary1_4 = ((java.util.LinkedHashMap<String, Object>) dictArbitrary1_3).get("arbitrary"); return (java.util.function.Function<Object, Object>) (dictArbitrary2_5) -> { Object arbitrary2_6 = ((java.util.LinkedHashMap<String, Object>) dictArbitrary2_5).get("arbitrary"); return (java.util.function.Function<Object, Object>) (dictEq_7) -> (java.util.function.Function<Object, Object>) (v_8) -> { Object __local_var_9 = ((java.util.function.Function<Object, Object>) ((java.util.function.Function<Object, Object>) (arg) -> (java.util.function.Supplier<Object>) () -> { System.out.println(arg); return null; })).apply("Checking 'Associativity' law for Semigroupoid"); return __local_var_9; }; }; }; };
+}

@@ -1,0 +1,9 @@
+public class Test_QuickCheck_Laws_Control_Alt {
+    public static final Object FFI_STUB = new java.util.function.Function<Object, Object>() {
+        public Object apply(Object arg) { return this; }
+    };
+
+
+public static final Object checkAltGen = (java.util.function.Function<Object, Object>) (dictAlt_0) -> { Object Functor0_1 = ((java.util.function.Function<Object, Object>) (((java.util.LinkedHashMap<String, Object>) dictAlt_0).get("Functor0"))).apply(null /* TODO: PrimUndefined */); return (java.util.function.Function<Object, Object>) (dictEq_2) -> (java.util.function.Function<Object, Object>) (dictEq1_3) -> (java.util.function.Function<Object, Object>) (gen_4) -> { Object __local_var_5 = ((java.util.function.Function<Object, Object>) ((java.util.function.Function<Object, Object>) (arg) -> (java.util.function.Supplier<Object>) () -> { System.out.println(arg); return null; })).apply("Checking 'Associativity' law for Alt"); return __local_var_5; }; };
+public static final Object checkAlt = (java.util.function.Function<Object, Object>) (dictAlt_0) -> (java.util.function.Function<Object, Object>) (dictArbitrary_1) -> { Object arbitrary_2 = ((java.util.LinkedHashMap<String, Object>) dictArbitrary_1).get("arbitrary"); return (java.util.function.Function<Object, Object>) (dictEq_3) -> (java.util.function.Function<Object, Object>) (dictEq1_4) -> (java.util.function.Function<Object, Object>) (v_5) -> { Object Functor0_6 = ((java.util.function.Function<Object, Object>) (((java.util.LinkedHashMap<String, Object>) dictAlt_0).get("Functor0"))).apply(null /* TODO: PrimUndefined */); Object __local_var_7 = ((java.util.function.Function<Object, Object>) ((java.util.function.Function<Object, Object>) (arg) -> (java.util.function.Supplier<Object>) () -> { System.out.println(arg); return null; })).apply("Checking 'Associativity' law for Alt"); return __local_var_7; }; };
+}
